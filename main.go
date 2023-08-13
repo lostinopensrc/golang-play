@@ -5,6 +5,7 @@ import (
 
 	"github.com/lostinopesrc/golang-play/conditions"
 	"github.com/lostinopesrc/golang-play/greeting"
+	"github.com/lostinopesrc/golang-play/loops"
 	"github.com/lostinopesrc/golang-play/sum"
 )
 
@@ -13,4 +14,5 @@ func main() {
 	fmt.Println(greeting.Greeting())
 	fmt.Println("THe result from sum package is:", sum.Sum())
 	conditions.Conditions()
+	loops.Loops()
 }
