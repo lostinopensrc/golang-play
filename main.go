@@ -9,6 +9,7 @@ import (
 	"github.com/lostinopesrc/golang-play/loops"
 	"github.com/lostinopesrc/golang-play/sum"
 	"github.com/lostinopesrc/golang-play/switchcase"
+	"github.com/lostinopesrc/golang-play/variadicfunction"
 )
 
 func main() {
@@ -23,4 +24,6 @@ func main() {
 	var p int = 10
 	var q int = 20
 	fmt.Println(functions.Swap1(&p, &q))
+	// variadic function call
+	fmt.Println(variadicfunction.Join_String("Hi", "Hello"))
 }
