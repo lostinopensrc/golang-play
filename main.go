@@ -7,6 +7,7 @@ import (
 	"github.com/lostinopesrc/golang-play/greeting"
 	"github.com/lostinopesrc/golang-play/loops"
 	"github.com/lostinopesrc/golang-play/sum"
+	"github.com/lostinopesrc/golang-play/switchcase"
 )
 
 func main() {
@@ -15,4 +16,5 @@ func main() {
 	fmt.Println("THe result from sum package is:", sum.Sum())
 	conditions.Conditions()
 	loops.Loops()
+	switchcase.SwitchCase()
 }
