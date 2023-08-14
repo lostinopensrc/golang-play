@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/lostinopesrc/golang-play/conditions"
+	"github.com/lostinopesrc/golang-play/functions"
 	"github.com/lostinopesrc/golang-play/greeting"
 	"github.com/lostinopesrc/golang-play/loops"
 	"github.com/lostinopesrc/golang-play/sum"
@@ -17,4 +18,9 @@ func main() {
 	conditions.Conditions()
 	loops.Loops()
 	switchcase.SwitchCase()
+	fmt.Println(functions.Swap(10, 20)) // call by value
+	// call by reference
+	var p int = 10
+	var q int = 20
+	fmt.Println(functions.Swap1(&p, &q))
 }
