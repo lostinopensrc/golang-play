@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	"github.com/lostinopesrc/golang-play/blankidentifier"
 	"github.com/lostinopesrc/golang-play/conditions"
 	"github.com/lostinopesrc/golang-play/functions"
 	"github.com/lostinopesrc/golang-play/greeting"
@@ -26,4 +27,7 @@ func main() {
 	fmt.Println(functions.Swap1(&p, &q))
 	// variadic function call
 	fmt.Println(variadicfunction.Join_String("Hi", "Hello"))
+	// using division output as blank identifier
+	mul, _ := blankidentifier.Mul_Div(1, 2)
+	fmt.Println("Multiplication output is:", mul)
 }
