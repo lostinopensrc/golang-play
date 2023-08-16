@@ -8,6 +8,7 @@ import (
 	"github.com/lostinopesrc/golang-play/functions"
 	"github.com/lostinopesrc/golang-play/greeting"
 	"github.com/lostinopesrc/golang-play/loops"
+	"github.com/lostinopesrc/golang-play/methods"
 	"github.com/lostinopesrc/golang-play/sum"
 	"github.com/lostinopesrc/golang-play/switchcase"
 	"github.com/lostinopesrc/golang-play/variadicfunction"
@@ -30,4 +31,10 @@ func main() {
 	// using division output as blank identifier
 	mul, _ := blankidentifier.Mul_Div(1, 2)
 	fmt.Println("Multiplication output is:", mul)
+	// method with struct type as receiver
+	res := methods.Book{
+		Name:   "Learn Go",
+		Author: "lostinopensrc",
+	}
+	res.Artifact()
 }
