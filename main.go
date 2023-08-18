@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	"github.com/lostinopesrc/golang-play/arrays"
 	"github.com/lostinopesrc/golang-play/blankidentifier"
 	"github.com/lostinopesrc/golang-play/conditions"
 	"github.com/lostinopesrc/golang-play/functions"
@@ -37,4 +38,8 @@ func main() {
 		Author: "lostinopensrc",
 	}
 	res.Artifact()
+	// array having definite size
+	arrays.Array1()
+	// array having size defined by values given initially
+	arrays.Array2()
 }
