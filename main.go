@@ -10,6 +10,7 @@ import (
 	"github.com/lostinopesrc/golang-play/greeting"
 	"github.com/lostinopesrc/golang-play/loops"
 	"github.com/lostinopesrc/golang-play/methods"
+	"github.com/lostinopesrc/golang-play/slices"
 	"github.com/lostinopesrc/golang-play/sum"
 	"github.com/lostinopesrc/golang-play/switchcase"
 	"github.com/lostinopesrc/golang-play/variadicfunction"
@@ -42,4 +43,6 @@ func main() {
 	arrays.Array1()
 	// array having size defined by values given initially
 	arrays.Array2()
+	// calling Slice function
+	slices.Slice_Me()
 }
